@@ -1,0 +1,26 @@
+# For development on Windows
+# pip install -r requirements/requirements-dev.txt
+
+# GUI
+PyQt5==5.15.9
+
+# NFC dev testing
+nfcpy   # Works cross-platform, unlike pi-rc522
+
+# Serial for HC-12 development/testing
+pyserial
+
+# Logging
+loguru
+
+# Cryptography for card auth
+cryptography
+pynacl
+
+# JSON schema / config parsing
+jsonschema
+
+# Development tools
+black
+flake8
+pytest

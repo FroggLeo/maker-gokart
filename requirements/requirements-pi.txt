@@ -1,0 +1,37 @@
+# For deployment on Pi
+# pip install -r requirements/requirements-pi.txt
+
+# Core GUI
+PyQt5==5.15.9
+
+# NFC Reader (PN532)
+pi-rc522
+pynfc   # or nfcpy, depending on library used
+
+# Serial communication for HC-12
+pyserial
+
+# ADC & DAC (ADS1115, MCP4725)
+adafruit-circuitpython-ads1x15
+adafruit-circuitpython-mcp4725
+Adafruit-Blinka  # Required for CircuitPython drivers
+
+# GPIO
+RPi.GPIO
+gpiozero
+
+# CAN interface (for EPS)
+python-can
+
+# Logging and utilities
+loguru
+
+# NFC cryptography (if needed for NTAG424 DNA)
+cryptography
+pynacl
+
+# JSON schema or config parsing
+jsonschema
+
+# Optional: if you want async features for radio or networking
+aiofiles
