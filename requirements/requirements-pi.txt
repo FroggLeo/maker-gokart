@@ -2,7 +2,7 @@
 # pip install -r requirements/requirements-pi.txt
 
 # Core GUI
-PyQt5==5.15.9
+# Install PyQt5 via apt: sudo apt install python3-pyqt5
 
 # NFC Reader (PN532)
 pi-rc522
