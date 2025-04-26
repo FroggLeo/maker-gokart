@@ -1,0 +1,1 @@
+# Hall effect sensor + speed calc
